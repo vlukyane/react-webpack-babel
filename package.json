@@ -1,0 +1,39 @@
+{
+  "name": "react-webpack-babel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --mode=development",
+    "build": "webpack --mode=production",
+    "dev": "webpack-dev-server --hotOnly"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vlukyane/react-webpack-babel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^3.6.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "bugs": {
+    "url": "https://github.com/vlukyane/react-webpack-babel/issues"
+  },
+  "homepage": "https://github.com/vlukyane/react-webpack-babel#readme"
+}
